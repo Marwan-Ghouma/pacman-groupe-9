@@ -47,6 +47,9 @@ while ((nbp*p.getvie())!=0  ) {
     p.manger(x1,y1,map);
     if(score1!=p.getscore()) nbp-- ;
     if(p.getre()) {p.Rencontre() ;} 
+     for(x=0;x<20;x++){
+       cout<<map[x]<<endl  ;
+    }
     p.resultats(nbp) ;
 }
 
