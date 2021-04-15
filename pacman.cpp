@@ -38,7 +38,7 @@ void pacman::Rencontre () {
   else vie-- ;
   sp=false ;
 } ;
-void pacman::resultats(int a,bool k) {
+void pacman::resultats(int a) {
   
   
   if(vie==0) cout<<"echec ";
