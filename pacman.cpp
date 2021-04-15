@@ -42,7 +42,7 @@ void pacman::resultats(int a,bool k) {
   
   
   if(vie==0) cout<<"echec ";
-  if (a=0) cout<<"vous avez gagné" ;
+  if (a==0) cout<<"vous avez gagné" ;
   cout<<"\n score"<<score<<endl ;
   cout<<"il vous reste"<<vie<<"vie"<<endl ;
 }
