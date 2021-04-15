@@ -3,7 +3,7 @@
 #include "adversaire.h"
 
 
-int x,y,x1,y1,score1; //x1,y1,score1 copie de la coordonnés de p 
+int x,y,x1,y1,score1; //x1,y1,score1 copie de les coordonnés de p 
 
            char map[21][41]={"########################################",
                   "#................#.....................#",
