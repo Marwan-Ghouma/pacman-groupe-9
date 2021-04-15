@@ -7,9 +7,7 @@ private:
 public:
     adversaire(int,int,char d[21][41]);
     ~adversaire();
-
-
- void speciale() ;
+ 
  void deplacement() ; 
  void setx(int ) ; 
  int getx() ; 
