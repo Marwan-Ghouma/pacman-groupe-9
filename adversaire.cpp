@@ -7,10 +7,7 @@ adversaire::adversaire(int a,int b, char d[21][41]):x(a),y(b)
 adversaire::~adversaire()
 {
 }
-void adversaire::speciale ()
-{
 
-}
 void adversaire::deplacement ()
 {
 
