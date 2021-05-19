@@ -40,7 +40,6 @@ for(x=0;x<20;x++){
 while ((nbp*p.getvie())!=0  ) {
     x1=p.getx();
     h=p.gety();
-    score1=p.getscore() ;
     cout<<"\n donner le sens de deplacement \n " ;
     cin>>dep ;
     ad1.deplacement(map) ;
@@ -52,6 +51,7 @@ while ((nbp*p.getvie())!=0  ) {
     ad4.deplacement(map) ;
      if(ad4.getren()) {p.Rencontre() ;}
     p.deplacement(dep,map) ;
+     score1=p.getscore() ;
     p.manger(x1,h,map);
     if(score1!=p.getscore()) nbp-- ;
     if(p.getre()) {p.Rencontre() ;}

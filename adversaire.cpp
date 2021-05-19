@@ -14,8 +14,9 @@ void adversaire::deplacement (char a[21][41] )
    ren=false ;
    for(i=0;i<vitesse && !(ren);i++) {
 
+
+if(r==0 && a[x+1][y]!=('#') ){
  if(old!=('&') && old!=('@')) a[x][y]=old ;
-if(r==0 && a[x+1][y]!=('#')){
   x++ ;
   if (a[x][y]==('@')) ren=true ;
   old=a[x][y] ;
@@ -23,6 +24,7 @@ if(r==0 && a[x+1][y]!=('#')){
 
   }
   else if(r==1 && a[x][y+1]!=('#')){
+   if(old!=('&') && old!=('@')) a[x][y]=old ;
   y++ ;
     old=a[x][y] ;
   if (a[x][y]==('@')) ren=true ;
@@ -30,6 +32,7 @@ if(r==0 && a[x+1][y]!=('#')){
 
   }
   else if(r==2 && a[x-1][y]!=('#')){
+   if(old!=('&') && old!=('@')) a[x][y]=old ;
   x-- ;
     old=a[x][y] ;
   if (a[x][y]==('@')) ren=true ;
@@ -37,6 +40,7 @@ if(r==0 && a[x+1][y]!=('#')){
 
   }
 else if(r==3 && a[x][y-1]!=('#')){
+ if(old!=('&') && old!=('@')) a[x][y]=old ;
   y-- ;
   if (a[x][y]==('@')) ren=true ;
     old=a[x][y] ;
@@ -46,6 +50,7 @@ else if(r==3 && a[x][y-1]!=('#')){
   }
 
   }
+
 
 }
 
