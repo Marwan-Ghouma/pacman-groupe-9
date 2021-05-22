@@ -37,6 +37,7 @@ adversaire ad4(14,21,1,map) ;
 for(x=0;x<20;x++){
             cout<<map[x]<<endl  ;
     }
+           cout<<"les clés utiliser sont : \n          z \n       q  s  d "  ;
 while ((nbp*p.getvie())!=0  ) {
     x1=p.getx();
     y1=p.gety();
