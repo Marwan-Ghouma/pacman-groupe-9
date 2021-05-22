@@ -7,8 +7,9 @@ private:
     bool ren=false ; // detecter le rencontre avec pacman
     char old=' ' ;  // pour sauvegarder le contenue de position
     int vitesse ;  // combien de case le fantome peux passer par boucle
+    int sens ;
 public:
-    adversaire(int,int,int,char d[21][41]);
+    adversaire(int,int,int,int,char d[21][41]);
     ~adversaire();
 
  void deplacement(char d[21][41]) ;

@@ -9,7 +9,7 @@ pacman::~pacman()
 {
 }
 void pacman::deplacement( char c, char a[21][41])
-{ if(c==('s') && a[x+1][y]!= ('#')) {
+{ if(c== ('s') && a[x+1][y]!= ('#')) {
     x++;
       }
   if(c==('z')&& a[x-1][y]!= ('#')) {
@@ -30,8 +30,8 @@ void pacman::manger(int n1,int n2 ,char a[21][41])
  if(a[x][y]==('$')) {score+=20 ;
    sp=true ; }
  if(a[x][y]==('&')) re=true ;
-
-   a[x][y]=('@'); }
+   a[x][y]=('@');
+    }
 }
 void pacman::Rencontre () {
   if( sp ) score+= 1000 ;
